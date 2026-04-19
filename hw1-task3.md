@@ -40,10 +40,9 @@ p = 4
 
 What are the advantages and disadvantages of a very flexible (versus a a less flexible) approach for regression? Under what circumstances might a more flexible approach be preferred to a less flexible approach? When might a less flexible approach be preferred?
 
-> One advantage of a flexible model is that it is able to capture non-linear relationships. It fits to the data better, however there is potential to overfit the model. It can also have more variance. The advantage of a less flexible model is a simpler interpretation and less variance. It does have the risk of underfitting the data. 
+> One advantage of a flexible model is that it is able to capture non-linear relationships. It fits to the data better, however there is potential to overfit the model. It can also have more variance. The advantage of a less flexible model is a simpler interpretation and less variance. It does have the risk of underfitting the data. A less flexible model is more ideal for smaller datasets. It also has less variance than a more flexible model.
 
-It is better to use a more flexible model when the relationship between the predictor and outcome is non-linear. 
-Less flexible models are better for smaller sample sizes or simpler relationships between variables.
+It is better to use a more flexible model when you have a larger sample size or the relationship between the predictor and outcome is non-linear. Less flexible models are better for smaller sample sizes or simpler relationships between variables.
 
 ---
 
@@ -51,4 +50,6 @@ Less flexible models are better for smaller sample sizes or simpler relationship
 
 Describe the differences between a **parametric** and a **non-parametric** statistical learning approach. What are the **advantages** of a parametric approach to regression or classification (as opposed to a non-parametric approach)? What are its **disadvantages**?
 
-A parametric approach assumes the shape of the model whereas non-parametric does not. It can be advantageous to use a parametric approach if the data is smaller, however, if the model may be a poor fit if it's not assumed correctly. It is also less flexible than a non-parametric approach.
+A parametric approach assumes the shape of the model whereas non-parametric does not. It can be advantageous to use a parametric approach if the data is smaller, however, the model may be a poor fit if the shape is not assumed correctly. 
+
+A parametric method also less flexible than a non-parametric approach. A non-parametric approach requires more observations for an accurate model and is more at risk of overfitting the data.
